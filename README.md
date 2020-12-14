@@ -1,8 +1,8 @@
 # Data analysis
 - Document here the project: Horses
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+- Description: Predict the winner in horse racing
+- Data Source: Kaggle (https://www.kaggle.com/gdaley/hkracing)
+- Type of analysis: Data visualization + Modelling (RandomForest)
 
 Please document the project the better you can.
 
@@ -61,10 +61,10 @@ Functionnal test with a script:
 ```bash
   $ cd /tmp
   $ Horses-run
-``` 
+```
 
 # Continus integration
-## Github 
+## Github
 Every push of `master` branch will execute `.github/workflows/pythonpackages.yml` docker jobs.
 ## Gitlab
 Every push of `master` branch will execute `.gitlab-ci.yml` docker jobs.
